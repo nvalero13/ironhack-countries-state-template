@@ -14,8 +14,10 @@ export const useCountryStore = defineStore("country", {
         capital: el.capital[0],
         area: el.area,
         borders: el.borders
-      
+        
       }
+
+      
     },
   },
 

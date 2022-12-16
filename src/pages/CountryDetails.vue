@@ -12,7 +12,7 @@
         <td>Area</td>
         <td>{{ countryStore.country.area }} km <sup>2</sup></td>
       </tr>
-      <tr v-if="countryStore.country.borders.length > 0">
+      <tr v-if="countryStore.country.borders !== undefined">
         <td>Borders</td>
         <td>
           <ul>
